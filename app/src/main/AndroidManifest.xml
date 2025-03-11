@@ -30,9 +30,29 @@
         android:theme="@style/Theme.CVERDETOTOO"
         tools:targetApi="31">
         <activity
-            android:name=".videoQCU"
+            android:name=".PostAssess2After"
             android:exported="false" />
-        <!-- Foreground Service for Notifications -->
+        <activity
+            android:name=".PostAsses25"
+            android:exported="false" />
+        <activity
+            android:name=".PostAsses24"
+            android:exported="false" />
+        <activity
+            android:name=".PostAsses23"
+            android:exported="false" />
+        <activity
+            android:name=".PostAsses22"
+            android:exported="false" />
+        <activity
+            android:name=".PostAsses21"
+            android:exported="false" />
+        <activity
+            android:name=".PostAssess2"
+            android:exported="false" />
+        <activity
+            android:name=".videoQCU"
+            android:exported="false" /> <!-- Foreground Service for Notifications -->
         <service
             android:name=".NotificationForegroundService"
             android:enabled="true"

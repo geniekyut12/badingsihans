@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set up the VideoView for the background video.
         VideoView videoView = findViewById(R.id.videoViewBackground);
-        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.mbg);
+        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.mainbg33);
         videoView.setVideoURI(uri);
         videoView.setOnPreparedListener(mp -> {
             mp.setLooping(true);

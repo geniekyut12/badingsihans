@@ -56,7 +56,10 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:background="@drawable/preassesbtn"
-            android:text="@string/start" />
+            android:fontFamily="@font/poppins_semibold_italic"
+            android:textAllCaps="true"
+            android:text="@string/start"
+            android:textSize="18sp"/>
 
     </RelativeLayout>
 

@@ -77,12 +77,6 @@ public class Signin extends AppCompatActivity {
         videoView = findViewById(R.id.videoViewBackground);
         forgotPasswordButton = findViewById(R.id.btn_forgot_password);
 
-        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.mbgblur);
-        videoView.setVideoURI(uri);
-        videoView.setOnPreparedListener(mp -> {
-            mp.setLooping(true);
-            videoView.start();
-        });
 
         firebase = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();

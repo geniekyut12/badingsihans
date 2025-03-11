@@ -36,7 +36,7 @@ public class Loadingpage extends AppCompatActivity {
         progressBar.setVisibility(View.INVISIBLE);
 
         // Set up VideoView with background video
-        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.mbgblur);
+        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.mainbg33);
         videoView.setVideoURI(uri);
         videoView.setOnPreparedListener(mp -> {
             mp.setLooping(true);

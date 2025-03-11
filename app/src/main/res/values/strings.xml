@@ -5,9 +5,9 @@
     <string name="Email_Uname">Email/Username</string>
     <string name="getstart">Click anywhere to start!</string>
     <string name="Password">Password</string>
-    <string name="forgotpassword">Forgot Password</string>
+    <string name="forgotpassword">Forgot Password?</string>
     <string name="login">Login</string>
-    <string name="reg">New to C-Verde? SignUp</string>
+    <string name="reg">New to C-Verde? <u>SignUp</u></string>
     <string name="logo">\n</string>
 
     <!-- HOMEPAGE -->
@@ -29,7 +29,7 @@
     <string name="timee">\n</string>
     <string name="guideRB">Choose 1 to continue.</string>
     <string name="submit">Submit</string>
-    <string name="next">NEXT</string>
+    <string name="next">Next</string>
     <string name="WD">Well Done!</string>
     <string name="pre1scoress">Your score is:</string>
     <string name="pre1score">5/5 points</string>
@@ -159,6 +159,11 @@
     <string name="aboutus">About Us</string>
     <string name="editprof">Edit Profile</string>
     <string name="delpic">\n</string>
+    <string name="preqeus21">" What is the primary cause of an increased carbon footprint?"</string>
+    <string name="preQ21a">Planting more trees</string>
+    <string name="preQ21b">Burning fossil fuels</string>
+    <string name="preQ21c">Using renewable energy</string>
+    <string name="preQ21d">Recycling waste</string>
 
 
 </resources>
